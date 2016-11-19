@@ -1,6 +1,8 @@
 console.log('Loaded!');
 
-var img = document.getElementById('mod');
-img.onclick=function(){
-    img.style.marginRight = '200px';
-};
+<FORM NAME="myform" ACTION="" METHOD="GET">
+Enter something in the box: <BR>
+< INPUT TYPE="text" NAME="inputbox" VALUE="">
+<P>
+< INPUT TYPE="button" NAME="button" Value="Click" onClick="testResults(this.form)">
+</FORM>
