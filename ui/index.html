@@ -9,7 +9,35 @@
         </div>
        
         <script>
-            alert ("hi iam java scrpit");
+            var f = document.createElement("form");
+f.setAttribute('method',"post");
+f.setAttribute('action',"submit.php");
+
+var i = document.createElement("input");
+i.type = "text";
+i.name = "user_name";
+i.id = "user_name1";
+
+
+var c = document.createElement("input");
+c.type = "checkbox";
+c.id = "checkbox1";
+c.name = "check1";
+
+
+var s = document.createElement("input");
+s.type = "submit";
+s.value = "Submit";
+
+
+f.appendChild(i);
+f.appendChild(c);
+f.appendChild(s);
+
+
+$("body").append(f);
+document.getElementsByTagName('body')[0].appendChild(f); 
+
         </script>
         <script type="text/javascript" src="/ui/main.js">
         </script>
