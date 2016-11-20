@@ -5,6 +5,77 @@
     </head>
     <body>
         
+        <style type="text/css">
+	
+	#page{
+
+        text-align: center; 
+	}
+
+
+</style>
+
+<div id=page>
+(head) <font size = "10"> REGISTRATION FORM (/head) </font>
+<br> <br>
+<form>
+<p>FIRST NAME: <input type="text " name="first name">  &emsp; LAST NAME :<input type="text " name=" last name "></p>
+GENDER:<br>
+<input type="radio" name= gender checked="male">male<br>
+<input type="radio" name=gender>female<br>
+
+<p> DOB: <input type="date" name="data-date-inline-picker= true"><br></p>
+<p>EMAIL:
+<input type="email" name="email"> <br> <br>
+
+
+CONTACT:
+<input type="number" name="contact number">
+<br> <br> 
+
+Address : <textarea>
+	
+</textarea> 
+
+Area code : <input type="text" size="7" maxlength="10" >
+</p>
+
+
+<p>EDUCATION:
+<select>
+    <option value= "P.HD">P.HD</option>
+	<option value="PG">PG</option>
+	<option value= "UG">UG</option>
+	<option value= "DIPLOMA">DIPLOMA</option>
+</select> </p>
+
+<p>INTERNSHIP : <input type="text" name="company name "> &emsp; START DATE:<input type="date" name="start date"> &emsp; END DATE:<input type="date" name="end date"></p>
+
+
+<P> OCCUPATION
+<select>
+<option value="SELF EMPLOYED">SELF EMPLOYED</option>
+<option value="STUDENT">STUDENT</option>
+<option value="BUSINESS">BUSINESS</option>
+<option value="OTHERS">OTHERS</option>
+</select>
+</P>
+ <p> WHAT IMPORTANT TRENDS DO YOU SEE IN OUR COMPANY ? <br>
+
+  <TEXTAREA rows="6" cols="50" > </TEXTAREA>
+  </p>
+
+  <button id ="Submit">submit form </button>  &emsp; <button id ="reset" type="reset" > reset form </button> 
+</form>
+
+</div>
+  <script type="text/javascript">
+  	 document.getElementById("Submit").onclick=function(){
+  	 	alert (" the appllication has been successfully Submitted");
+  	 }
+
+  </script>
+        
     
         <script type="text/javascript" src="/ui/main.js">
         </script>
